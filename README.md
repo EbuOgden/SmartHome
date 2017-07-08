@@ -1,4 +1,4 @@
-# SmartHome
+# Smart Home
 
   This small voice controlled smart home application allows you to turn on and turn off your light,
 which is connected to Raspberry Pi, through from your iPhone smartphone by your voice.<br>
