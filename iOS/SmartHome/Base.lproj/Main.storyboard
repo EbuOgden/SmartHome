@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SmartHome" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7x-qd-l5I" customClass="BorderButton" customModule="SmartHome" customModuleProvider="target">
+                                <rect key="frame" x="32" y="139" width="96" height="32"/>
+                                <color key="backgroundColor" red="0.20392156859999999" green="0.59607843140000005" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="PO5-mL-sRK"/>
+                                    <constraint firstAttribute="width" constant="96" id="akL-sa-rLI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Off">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="lightButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Me6-oC-yr2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Light" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOh-Bi-uz0">
+                                <rect key="frame" x="61" y="110" width="38" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="I46-zo-tdT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smart Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSA-NC-kpV">
+                                <rect key="frame" x="117" y="28" width="141.5" height="29.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buzzer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SfB-Af-fqB">
+                                <rect key="frame" x="266.5" y="110" width="52.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="B1E-33-W6B"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JhZ-eV-FTn" customClass="BorderButton" customModule="SmartHome" customModuleProvider="target">
+                                <rect key="frame" x="247" y="139" width="96" height="32"/>
+                                <color key="backgroundColor" red="0.20392156859999999" green="0.59607843140000005" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="96" id="ZVq-4i-ijj"/>
+                                    <constraint firstAttribute="height" constant="32" id="laC-oQ-f1G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Off">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buzzerButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oLI-zj-qio"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperature" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PTW-Qc-pbl">
+                                <rect key="frame" x="140" y="323" width="95" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pHx-hA-X8V">
+                                <rect key="frame" x="187.5" y="359" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ebubekir Ogden" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTy-Ss-gBS">
+                                <rect key="frame" x="130" y="641" width="116" height="18"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Electric" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8L-2r-Tjc">
+                                <rect key="frame" x="159.5" y="182.5" width="56.5" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zdp-nK-Nxh" customClass="BorderButton" customModule="SmartHome" customModuleProvider="target">
+                                <rect key="frame" x="140" y="210.5" width="96" height="32"/>
+                                <color key="backgroundColor" red="0.20392156859999999" green="0.59607843140000005" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="4Yf-BD-PLL"/>
+                                    <constraint firstAttribute="width" constant="96" id="EVJ-fn-6Om"/>
+                                </constraints>
+                                <state key="normal" title="On">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="electricButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oJZ-gz-zHw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.33333333329999998" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EOh-Bi-uz0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="90" id="3Do-mP-Y5T"/>
+                            <constraint firstItem="aSA-NC-kpV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="5Xb-Kr-RgA"/>
+                            <constraint firstItem="EOh-Bi-uz0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="45" id="6BE-7L-3g6"/>
+                            <constraint firstItem="SfB-Af-fqB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="90" id="6QU-5w-9R5"/>
+                            <constraint firstItem="r8L-2r-Tjc" firstAttribute="top" secondItem="aSA-NC-kpV" secondAttribute="bottom" constant="125" id="9mF-ep-N6s"/>
+                            <constraint firstItem="C7x-qd-l5I" firstAttribute="top" secondItem="EOh-Bi-uz0" secondAttribute="bottom" constant="8" id="Anv-Q9-YgB"/>
+                            <constraint firstItem="PTW-Qc-pbl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="AsN-a0-OO8"/>
+                            <constraint firstItem="JhZ-eV-FTn" firstAttribute="top" secondItem="SfB-Af-fqB" secondAttribute="bottom" constant="8" id="Grh-ix-E72"/>
+                            <constraint firstItem="pHx-hA-X8V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IHH-SH-URu"/>
+                            <constraint firstItem="cTy-Ss-gBS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="If3-dO-gWp"/>
+                            <constraint firstItem="C7x-qd-l5I" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="MRa-Ka-Lz8"/>
+                            <constraint firstItem="PTW-Qc-pbl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QNS-9S-J8a"/>
+                            <constraint firstItem="pHx-hA-X8V" firstAttribute="top" secondItem="PTW-Qc-pbl" secondAttribute="bottom" constant="16" id="R8b-gf-b1y"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SfB-Af-fqB" secondAttribute="trailing" constant="40" id="YPm-ed-o5c"/>
+                            <constraint firstItem="Zdp-nK-Nxh" firstAttribute="top" secondItem="r8L-2r-Tjc" secondAttribute="bottom" constant="8" id="aGf-Yt-V2Y"/>
+                            <constraint firstItem="r8L-2r-Tjc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bAZ-R2-ufG"/>
+                            <constraint firstItem="aSA-NC-kpV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g3L-eg-mp5"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cTy-Ss-gBS" secondAttribute="bottom" constant="8" id="ooz-Q4-9xe"/>
+                            <constraint firstItem="Zdp-nK-Nxh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tY8-j4-Qpc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JhZ-eV-FTn" secondAttribute="trailing" constant="16" id="url-a4-S09"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buzzerButton" destination="JhZ-eV-FTn" id="cfl-zq-lOC"/>
+                        <outlet property="electricButton" destination="Zdp-nK-Nxh" id="z5Z-HI-SpD"/>
+                        <outlet property="lightButton" destination="C7x-qd-l5I" id="1oT-qa-wIK"/>
+                        <outlet property="temperatureLabel" destination="pHx-hA-X8V" id="IaL-jb-G2c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

@@ -9,7 +9,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-RobotDemo.xcscheme</key>
+		<key>Pods-SmartHome.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Socket.IO-Client-Swift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3899225CAB1B30C1AFFBDF9EFFB7E49D</key>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<key>A8AC6B1299E954A75886301148CA4620</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B54203524CB13EC9D7B85F256B81F0C7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
