@@ -22,7 +22,7 @@
   
   
   <hr>
-  # Used Technologies
+ # Used Technologies
   <summary>Raspberry PI Model 3. Link: <a href="https://www.amazon.com/gp/product/B01C6Q4GLE/ref=oh_aui_detailpage_o09_s00?ie=UTF8&psc=1">Canakit Raspberry PI 3 Amazon</a></summary><br>
 <summary>Soundfounder Sensor Kit. Link: <a href="https://www.amazon.com/gp/product/B014PF05ZA/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1">Sunfounder Sensor Kit Amazon</a></summary><br>
 <summary>Node JS for Server</summary><br>
