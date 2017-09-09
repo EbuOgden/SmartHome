@@ -35,7 +35,7 @@
   
   <hr>
   Feel free to ask questions about sensor connections, codes or copy them to improve features in your own projects (Just heads up will be good).
-  
+  <br>
   <code>E-mail: ebubekirogden@gmail.com</code>
   
   
