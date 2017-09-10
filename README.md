@@ -11,15 +11,15 @@
   
   <b> Sensors and Other Hardwares</b>
   
-  <li>Gas Sensor&nbsp<b>Helps to detect gas</b></li> 
-  <li>Fire Sensor&nbsp<b>Helps to detect fire</b></li> 
-  <li>Raindrop Sensor&nbsp<b>Helps to detect flood</b></li> 
-  <li>Ultrasonic Sensor&nbsp<b>Helps to detect intruders</b></li> 
-  <li>Temperature&nbsp<b>Shows the current temperature of room</b></li> 
-  <li>Active Buzzer&nbsp<b>Helps to make noises if needed</b></li> 
-  <li>RGB Light&nbsp<b>Helps to make intruders uncomfortable</b></li> 
-  <li>LED Light&nbsp<b>It's used to demonstrate electrict system of a house</b> </li>
-  <li>PCF8591&nbsp<b>Most of the sensors use SDA & SCL pin. PCF helps us to create a bridge to connect other sensors to the same pin at the same time.</b></li>
+  <li>Gas Sensor -> <b>Helps to detect gas</b></li> 
+  <li>Fire Sensor -> <b>Helps to detect fire</b></li> 
+  <li>Raindrop Sensor -> <b>Helps to detect flood</b></li> 
+  <li>Ultrasonic Sensor -> <b>Helps to detect intruders</b></li> 
+  <li>Temperature -> <b>Shows the current temperature of room</b></li> 
+  <li>Active Buzzer -> <b>Helps to make noises if needed</b></li> 
+  <li>RGB Light -> <b>Helps to make intruders uncomfortable</b></li> 
+  <li>LED Light -> <b>It's used to demonstrate electrict system of a house</b> </li>
+  <li>PCF8591 -> <b>Most of the sensors use SDA & SCL pin. PCF helps us to create a bridge to connect other sensors to the same pin at the same time.</b></li>
   
   
   <hr>
