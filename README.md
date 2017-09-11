@@ -3,7 +3,7 @@
   
   A custom Smart Home system that can be trackable and controllable from iOS Phone.
   
-  This smart home system has variety of sensors that make user to track and control their home from iOS Smartphones.
+  This smart home system has variety of sensors that help user to track and control their home from iOS Smartphones.
   
   When a user connects to the system, system automatically starts the smart home sensors and observss the values. User can see the temperature value from phone's screen in real time. If any read data is not safe or not in the given range which is given by user, the system will send a notification to the user. User can control home's electric system, rgb light and activate or deactivate the buzzer. 
   
