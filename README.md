@@ -18,7 +18,7 @@
   <li>Temperature -> <b>Shows the current temperature of room</b></li> 
   <li>Active Buzzer -> <b>Helps to make noises if needed</b></li> 
   <li>RGB Light -> <b>Helps to make intruders uncomfortable</b></li> 
-  <li>LED Light -> <b>It's used to demonstrate the electrical system of a house</b> </li>
+  <li>LED Light -> <b>It's being used to demonstrate the electrical system of a house</b> </li>
   <li>PCF8591 -> <b>Most of the sensors use SDA & SCL pin. PCF helps us to create a bridge to connect other sensors to the same pin at the same time.</b></li>
   
   
